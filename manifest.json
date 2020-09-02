@@ -9,6 +9,9 @@
     "48": "images/zcgr48.png",
     "128": "images/zcgr128.png"
   },
+  "permissions": [
+    "tabs"
+  ],
   "content_scripts": [
     {
       "matches": [

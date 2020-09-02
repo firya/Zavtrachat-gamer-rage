@@ -11,3 +11,6 @@
 
 Перейти в хроме по адресу chrome://extensions/ и выбразть "Загрузить упакованное расширение". В окне выбрать папку с кодом
 ![Установка расширения](/images/screenshot2.png?raw=true)
+
+## Благодарности
+Идея [Pan Kotek](https://twitter.com/nakxwest). Вступайте в [Zavtrachat](https://t.me/zavtrachat), слушайте [zavtracast](https://zavtracast.ru)
