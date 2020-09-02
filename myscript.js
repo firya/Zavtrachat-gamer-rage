@@ -2,10 +2,13 @@
   const TEXT = [{
     value: ' — геймеры в ярости',
     pos: 'after'
-  }, {
-    value: 'Геймеры высмеяли новость о том, что',
-    pos: 'before'
-  }];
+  },
+    // {
+    //   value: 'Геймеры высмеяли новость о том, что',
+    //   pos: 'before'
+    // }
+  ];
+
   var windowUrl = null;
   var prevPageHeight = 0;
 
