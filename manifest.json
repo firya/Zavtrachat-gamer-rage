@@ -1,0 +1,22 @@
+{
+  "name": "Zavtaracast Gamer Rage",
+  "description": "Add gamer rage to dtf new title",
+  "version": "1.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/zcgr16.png",
+    "32": "images/zcgr32.png",
+    "48": "images/zcgr48.png",
+    "128": "images/zcgr128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://dtf.ru/*"
+      ],
+      "js": [
+        "myscript.js"
+      ]
+    }
+  ]
+}
