@@ -1,8 +1,9 @@
 (function () {
-  const TEXT = [{
-    value: ' — геймеры в ярости',
-    pos: 'after'
-  },
+  const TEXT = [
+    {
+      value: " — геймеры в ярости",
+      pos: "after",
+    },
     // {
     //   value: 'Геймеры высмеяли новость о том, что',
     //   pos: 'before'
@@ -20,20 +21,20 @@
   }
 
   function setText() {
-    var titles = document.querySelectorAll('.content-header__title');
+    var titles = document.querySelectorAll(".content-title");
 
     for (let i = 0; i < titles.length; i++) {
       const title = titles[i];
       const textObj = TEXT[Math.round(Math.random() * (TEXT.length - 1))];
 
-      const wrap = title.querySelector('.l-no-wrap');
-      const checkmark = wrap ? wrap.querySelector('a') : null;
+      const wrap = title.querySelector(".l-no-wrap");
+      const checkmark = wrap ? wrap.querySelector("a") : null;
 
       const textNode = document.createTextNode(textObj.value);
 
       if (!title.classList.contains("is-raged")) {
         title.classList.add("is-raged");
-        if (textObj.pos == 'after') {
+        if (textObj.pos == "after") {
           if (checkmark) {
             checkmark.parentNode.insertBefore(textNode, checkmark);
           } else {
@@ -47,7 +48,7 @@
   }
 
   function init() {
-    window.addEventListener("scroll", e => scrollHandler());
+    window.addEventListener("scroll", (e) => scrollHandler());
 
     setInterval(() => {
       if (windowUrl != window.location.href) {
@@ -59,5 +60,5 @@
     setText();
   }
 
-  window.addEventListener('load', e => init());
-}())
+  window.addEventListener("load", (e) => init());
+})();
