@@ -16,4 +16,4 @@
 
 ## Благодарности
 
-Идея [Pan Kotek](https://twitter.com/nakxwest). Вступайте в [Zavtrachat](https://t.me/zavtrachat), слушайте [Zavtracast](https://zavtracast.ru)
+Идея [Pan Kotek](https://twitter.com/nakxwest).
